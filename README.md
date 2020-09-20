@@ -22,7 +22,7 @@ El algoritmo consta en tomar una lista o arreglo ordenado y a partir de sus indi
 Ahora se vuelve a ejecutar y al tomar el medio entre i[0] y i[2] nos da el i[1], al comparar el elemento que le corresponde con el buscado se da la coincidencia y finaliza el proceso. <p>
 <br>
 
-
 # Quicksort (ordenamiento rapido)
 
-<p>El ordenamiento rápido es un algoritmo de ordenamiento que funciona tomando un elemento del arreglo a ordenar llamado ***pivote***
+El ordenamiento rápido tiene una complejidad logaritmica ***O(nlog(n))***  
+El algoritmo funciona tomando un elemento del arreglo a ordenar llamado ***pivote*** y lo utiliza para dividir la lista en 2 segmentos, uno con los elementos menores al pivote y oto con los mayores. quedando el pivote en su posición final. Este proceso se vuelve a repetir en cada uno de los segmentos que va generando hasta que el arreglo queda ordenado. 
