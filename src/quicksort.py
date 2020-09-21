@@ -1,7 +1,7 @@
 import numpy as np
 
 
-# ordena y busca
+# ordena y busca (solo para hacer pruebas, no tiene mucho sentido ejecutar el ordenamiento con cada busqueda)
 # recibe un arreglo y un elemento a buscar
 # ordena el arreglo con el metodo quicksort y retorna el indice
 def ordenaBusca(arreglo, elemento):
