@@ -31,7 +31,8 @@ def binarySearchAux(arreglo, elemento, indiceIzq, indiceDer):
 
 
 # auxiliar de particion para quicksort
-#
+# recibe un arreglo, un indice de inicio y uno de fin
+# asigna un pivote y separa la lista entre los menores y los mayores a ese pivote, dejando el pivote en su posicion final
 def particionado(arreglo, inicio, fin):
     pivot = arreglo[inicio]
     izq = inicio + 1
